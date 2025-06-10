@@ -1,0 +1,63 @@
+/* reset.css | A lightweight CSS Reset */
+
+/* 1. Set box-sizing globally */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+  
+/* 2. Remove default margin and padding */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul,
+figure, hr, fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Remove list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* 4. Remove default anchor styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 5. Set body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 6. Make images, videos responsive */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 7. Inherit fonts for form elements */
+input, button, textarea, select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* 8. Button defaults */
+button {
+  cursor: pointer;
+}
+
+/* 9. Table reset */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

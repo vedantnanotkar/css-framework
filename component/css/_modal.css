@@ -1,0 +1,47 @@
+/* modal.css | v1.0 */
+
+/* Base modal styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+/* Show/hide */
+.modal.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Modal box */
+.modal-content {
+    background-color: #fff;
+    padding: 2rem;
+    max-width: 500px;
+    width: 90%;
+    border-radius: 1.5rem;
+    position: relative;
+    animation: fadeInUp 0.3s ease;
+}
+  
+/* Keyframes for content animation */
+@keyframes fadeInUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

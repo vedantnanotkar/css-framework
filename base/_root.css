@@ -1,0 +1,23 @@
+/* root.css | Default css variables */
+
+:root {
+    /* colors */
+
+    /* interactive colors */
+    --pri-c: #9fe870;
+    --pri-c-hover: #80e142;
+    --d-pri-c: #163300;
+
+    --neu-c: #e2f6d5;
+    --neu-c-hover: #d3f2c0;
+
+    --negative-c: #a8200d;
+    --negative-c-hover: #8e1b0b;
+
+    --back-neu-c: rgba(64, 98, 128, 8%);
+    --back-neu-c-hover: rgba(22, 51, 0, 8%);
+
+    /* base */
+    --white: #fff;
+    --dark: #121511;
+}
