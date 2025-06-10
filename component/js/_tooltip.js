@@ -1,51 +1,5 @@
 /* Tooltip | Help user with more details | v1.0 */
 
-// class Tooltip {
-//   constructor() {
-//     this.tooltip = document.createElement('div');
-//     this.tooltip.className = 'tooltip';
-//     document.body.appendChild(this.tooltip);
-//     this.attachEvents();
-//   }
-
-//   attachEvents() {
-//     document.querySelectorAll('[data-tooltip]').forEach(el => {
-//       el.addEventListener('mouseenter', (e) => this.showTooltip(e, el));
-//       el.addEventListener('mouseleave', () => this.hideTooltip());
-//       el.addEventListener('mousemove', (e) => this.moveTooltip(e));
-//     });
-//   }
-
-//   showTooltip(e, el) {
-//     this.tooltip.textContent = el.getAttribute('data-tooltip');
-//     this.tooltip.classList.add('show');
-//     this.moveTooltip(e);
-//   }
-
-//   hideTooltip() {
-//     this.tooltip.classList.remove('show');
-//   }
-
-//   moveTooltip(e) {
-//     const offset = 12;
-//     this.tooltip.style.left = `${e.pageX + offset}px`;
-//     this.tooltip.style.top = `${e.pageY - offset}px`;
-//   }
-// }
-
-// // Initialize tooltips
-// document.addEventListener('DOMContentLoaded', () => {
-//   new Tooltip();
-// });
-
-
-
-
-
-
-
-
-
 class Tooltip {
   constructor() {
     this.tooltip = document.createElement('div');
