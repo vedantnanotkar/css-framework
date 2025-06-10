@@ -1,23 +1,40 @@
 /* root.css | Default css variables */
 
 :root {
-    /* colors */
+    /* ----------------------
+        Colors v1.0
+    ---------------------- */
 
-    /* interactive colors */
+    /* -- Interactive */
+    /* ---- accent */
     --pri-c: #9fe870;
     --pri-c-hover: #80e142;
-    --d-pri-c: #163300;
+    --pri-c-active: #65cf21;
 
+    /* ---- control */
+    --d-pri-c: #163300;
+    --d-pri-c-hover: #0d1f00;
+    --d-pri-c-active: #0e0f0c;
+
+    /* ---- negative */
+    --negative-c: #e74848;
+    --negative-c-hover: #d03238;
+    --negative-c-active: #bf1e2c;
+
+    /* ---- neutral */
     --neu-c: #e2f6d5;
     --neu-c-hover: #d3f2c0;
+    --neu-c-active: #c5edab;
 
+    /* ---- negative sentement */
     --negative-c: #a8200d;
     --negative-c-hover: #8e1b0b;
 
+    /* -- Background */
     --back-neu-c: rgba(64, 98, 128, 8%);
     --back-neu-c-hover: rgba(22, 51, 0, 8%);
 
-    /* base */
+    /* -- Base */
     --white: #fff;
     --dark: #121511;
 }
