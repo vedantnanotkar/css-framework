@@ -20,6 +20,7 @@ The framework doc are written on the Notion.
 - Modal
 - Scroll To Top
 - Tooltip
+- Chip (Button)
 
 ## Base
 - reset.css
