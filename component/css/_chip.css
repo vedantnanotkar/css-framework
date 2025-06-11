@@ -1,0 +1,19 @@
+/* chip button | Buttons for labels and small action */
+
+.chip-btn {
+    outline: 1px solid var(--border-neu-c);
+    padding: 0.125rem 0.875rem;
+    font-size: .875rem;
+    color: var(--d-pri-c);
+    transition: .2s ease-in-out;
+}
+.chip-btn a {
+    font-size: .875rem;
+    color: var(--d-pri-c);
+}
+.chip-btn:hover {
+    background: var(--back-neu-c-hover);
+}
+.chip-btn:active {
+    background: var(--back-neu-c-active);
+}

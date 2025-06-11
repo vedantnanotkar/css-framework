@@ -33,6 +33,10 @@
     /* -- Background */
     --back-neu-c: rgba(64, 98, 128, 8%);
     --back-neu-c-hover: rgba(22, 51, 0, 8%);
+    --back-neu-c-active: rgba(22, 51, 0, 12%);
+
+    /* -- Border */
+    --border-neu-c: rgba(14, 15, 12, 12%);
 
     /* -- Base */
     --white: #fff;
