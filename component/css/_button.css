@@ -9,6 +9,7 @@
     transition: .2s ease-in-out;
     font-size: 1rem;    /* for non <a> element */
     font-weight: 600;   /* for non <a> element */
+    height: fit-content;
 }
 .btn a {
     font-size: 1rem;
@@ -99,12 +100,30 @@
 }
 
 
-/*  ----------------------
-    Circular Button
-    ---------------------- */
-.m-circle-btn {
-    padding: 1rem;
+/* no-background */
+.no-back-btn {
+    color: var(--d-pri-c);
 }
+.no-back-btn a {
+    color: var(--d-pri-c);
+}
+.no-back-btn:hover {
+    background: var(--back-neu-c-hover);
+}
+
+
+
+/*  ----------------------
+      Circular Button
+      ---------------------- */
+.m-circle-btn {
+    padding: .7rem;
+}
+.m-circle-btn a i,
+.m-circle-btn i {
+    font-size: 1.4rem;
+}
+
 .s-circle-btn {
     padding: .5rem;
     font-size: 0;
